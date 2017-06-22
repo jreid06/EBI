@@ -1,0 +1,1098 @@
+@media(max-width:80.875em){
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+
+
+*{
+    border: 0px dotted;
+}
+
+
+
+@media(min-width:1em){
+    
+    /*UNIVERSAL CODE*/
+    
+    .contain03{
+        
+    }
+    
+    body{
+        width:100%;
+        height: auto;
+        margin: 0px;
+        background-color: #f2f2f2;
+    }
+    
+    .drpdown-link{
+        color: #fff;
+    }
+    
+    .drpdown-link:hover{
+        color: red;
+    }
+    
+    @font-face{
+        font-family: hans-Kendrick;
+        src: url("fonts/HansKendrick-Regular.otf");
+        
+    }
+    
+    h1, h2, h3, h4, h5{
+        font-family: hans-Kendrick;
+        text-align: left;
+        line-height: 1.4;
+        font-weight: 600;
+    }
+    
+    p, ul{
+        font-family: 'Forum', cursive;
+        text-align: center;
+    }
+    
+    .footer p{
+        text-align: center;
+    }
+    
+    .form-group p{
+        text-align: center;
+    }
+    
+    .smallx2{
+        width: 40%;
+        box-shadow: 0px 0px 20px black;
+        border-color: #f2f2f2;
+    }
+
+    
+    .navbar{
+       background-color: black;
+        width: 100%;
+        border-radius: 0em;
+        border-bottom: 3px solid #030708;
+        font-family: 'nexa_lightregular';
+         box-shadow: 0px 20px 120px #222;
+    }
+    
+     .active2 > a{
+        background-color: ;
+        color: red;
+    }
+    
+    a{
+        color: #fff;
+    }
+
+    .navbar-nav{
+        font-size: 0.6em;
+        text-align: center;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    
+    .navbar-nav li a:hover{
+        color: red;
+        background-color:  black;
+        border-bottom: 0px solid  #1C75BC ;
+        text-align: center;
+        transition: .5s;
+    }
+    
+    .navbar-nav li a:active{
+        color: red;
+        background-color: black;
+        border-bottom: 0px solid #222;
+        text-align: center;
+        transition: .5s;
+    }
+    
+   
+    
+    .icon-bar{
+        background-color: red;
+    }
+    
+    .footer{
+        padding-top: 50px;
+        border-top: 0px solid  #222;
+        border-radius: 0.1em;
+        width: 100%;
+        background-color: black;
+        box-shadow: 0px 0px 10px #222;
+        color: #fff;
+        position: absolute;
+        left: 0;
+    }
+    
+    /*UNIVERSAL CODE*/
+    
+    /*HOME PAGE CODE*/
+    
+    .contain02{
+        margin-top: -20px;
+        background: url(img/london-scenery-1212670-1598x1156.jpg);
+        background-size: 125% 100%;
+        box-shadow: 0px 220px 100px;
+       
+    }
+    
+    .home-content{
+         height: 29em;
+    }
+    
+    .content-text{
+        position:relative;
+        top: 150px;
+        background-color: #f2f2f2;
+        opacity: 0.9;
+        padding-top: 5px;
+         padding-bottom: 15px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .content-text h2{
+        
+       
+    }
+    
+    .heading-1{
+        margin-top: 20px;
+         width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+    
+    .content-text p{
+        width: 70%;
+        margin: auto;
+       
+       
+    }
+    
+    .bg-box{
+        
+    }
+    
+    .content-center{
+        color: #f2f2f2;
+        width: 75%;
+        margin: auto;
+    }
+    
+    .cc02{
+       margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .cc03{
+        padding-left: 15px;
+    }
+    
+    .cc04{
+         color: black;
+        font-weight: bold;
+        padding: 20px;
+        background-color: #f2f2f2;
+        opacity: 0.9;
+        margin-bottom: 20px;
+    }
+    
+    .rowc3-01{
+        background-color: black;
+    }
+    
+    .rowc4-02{
+        background: url(img/from-the-london-eye-pencil.jpg);
+        background-size: ;
+       
+    }
+    
+     /*ABOUT US PAGE CODE*/
+    
+    .contain-header{
+        margin-top: -20px;
+        
+        background-size:140% 170%;
+        box-shadow: 0px 20px 120px #222;
+        height: 22em;
+    }
+    
+    .ch-01{
+        background: url(img/reearnbetterinterest/B&W%20Chess.jpg);
+    } 
+    
+    .ch-02{
+        background: url(img/reearnbetterinterest/Professional-Banker-7.jpg);
+    }
+    
+    .ch-03{
+        background: url(img/reearnbetterinterest/london-hd-desktop.jpg);
+    }
+    
+    .ch-04{
+        background: url(img/reearnbetterinterest/london-black-and-white-background-wallpapers.jpg);
+    }
+    
+    .ch-05{
+        background: url(img/reearnbetterinterest/london-black-and-white-1080p-wallpapers_1.jpg);
+    }
+    
+    .ch-06{
+        background: url(img/reearnbetterinterest/Diamond-Photos-HD.jpg);
+    }
+    
+    .ch-07{
+        background: url(img/reearnbetterinterest/black-and-white-scenery-champagne-hd-tapety-305151.jpg);
+    }
+    
+    .ch-08{
+        background: url(img/reearnbetterinterest/London_1.jpg);
+    }
+    
+    .ch-09{
+        background: url(img/reearnbetterinterest/gray_london_england_tower_bridge_united_kingdom_hd-wallpaper-338716.jpg);
+    }
+    
+    .ch-10{
+        background: url(img/reearnbetterinterest/Professional-Banker-7.jpg);
+    }
+    
+    .ch-11{
+        background: url(img/reearnbetterinterest/Professional-Banker-7.jpg);
+    }
+    
+    
+    .ab-content{
+        margin-top: -60px;
+        color: black;
+        opacity: ;
+    }
+    
+    .rowab-02{
+        background-color: #fff;
+        
+    }
+    
+    .rowab-03{
+        
+        background-color: #f2f2f2;
+    }
+    
+    .rowab-03-1{
+         
+        background-color: #f2f2f2;
+    }
+    
+    .rowab-04{
+        background-color: #f2f2f2;
+    }
+    
+    .content-about{
+        color: black;
+        font-weight: bold;
+        box-shadow: 0px 2px 6px #222;
+    }
+    
+    .content-ab-extra h5{
+        font-family: nexaBold;
+        text-align: center;
+    }
+    
+    .content-ab-extra p{
+        text-align: justify;
+    }
+    
+    .ca{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .ca-02{
+        margin-top: 30px;
+        padding: 20px;
+        background-color: black;
+        color: #fff;
+        margin-bottom: 20px;
+        
+    }
+    
+    .ca-03{
+        padding: 20px;
+        background-color: black;
+        color: #fff;
+         margin-bottom: 20px;
+        
+    }
+    
+    .ca-04{
+        padding: 20px;
+        background-color: black;
+        color: #fff;
+        margin-bottom: 20px;
+        
+    }
+    
+    .ca-05{
+        margin-top: 20px;
+        margin-bottom: 30px; 
+        box-shadow: none;
+       
+    }
+    
+    /*ABOUT US PAGE CODE*/
+    
+    
+    
+    /*CLIENT CARE PAGE*/
+    
+    .rowcc-01{
+        background-color: #f2f2f2;
+    }
+    
+    .media{
+        padding-top: 40px;
+    }  
+    
+    .media-03-1{
+        padding-bottom: 80px;
+    }
+    
+    .media-heading {
+      font-size: 1.1em;
+    }
+    
+    .media-object{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .bigtext{
+        margin-top: -40px;
+        margin-bottom: 50px;
+        
+    } 
+    
+    .bigtext h3{
+       text-align: center;
+        
+    }
+    
+    /*CLIENT CARE PAGE*/
+    
+    /*WHO WE ARE*/
+    
+    .rowarwe-01{
+        background-color: #f2f2f2;
+    }
+    
+    .content-waw{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .cwaw01 h3{
+        margin-bottom: 50px;
+    }
+    
+    .waw-list{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: left;
+        list-style: disc;
+        list-style-position: outside;
+    }
+    
+    /*WHO WE ARE*/
+    
+    /*BETTER RETURNS*/
+    .rowreturn-01{
+        background-color: #f2f2f2;    
+    }
+    
+    .cr{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .content-returns{
+        padding: 20px;
+        color:#fff; 
+        background-color: #030708;
+        margin-top: 20px;
+        font-weight: bold;
+        box-shadow: 0px 2px 6px #222;
+    }
+    
+    .rtrn-text{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    /*BETTER RETURNS*/
+    
+    /* TRAD-LENDING*/
+    
+    .content-len{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .cl04{
+        width: 70%;
+        margin: auto;
+        
+    }
+    
+    .cl04 img{
+        width: 100%;
+    }
+    
+    .rowtrlen-01,
+    .rowtrlen-02,
+    .rowtrlen-03{
+        background-color: #fff;
+    }
+    
+    .lend-list{
+        text-align: left;
+    }
+    
+    
+    /* TRAD-LENDING*/
+    
+    /*GET STARTED NOW*/
+    
+    .btn-getstarted{
+        margin-bottom: 30px;
+        background-color: darkred;
+        
+    }
+    
+    .rowgs01{
+        background-color: #f2f2f2;
+    }
+    
+    .text-GS{
+        margin-top: 30px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    /*GET STARTED NOW*/
+    
+    /*CONTACT US*/
+    
+    .btn-getstarted{
+        margin-bottom: 30px;
+        background-color: darkred;
+        
+    }
+    
+    .rowctact01{
+        background-color: #f2f2f2;
+    }
+    
+    .text-contact{
+        margin-top: 30px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    /*CONTACT US*/
+    
+    /*INVESTMENT TYPES*/
+    
+    .rowinvest-01,
+    .rowinvest-02{
+        background-color: 
+            #f2f2f2;
+        
+    }
+    
+    /*INVESTMENT TYPES*/
+    
+    /*SAMPLE DEALS*/
+    
+    .bottom1{
+        margin-bottom: 120px;
+    }
+    
+    
+    /*SAMPLE DEALS*/
+    
+}
+
+
+
+@media(min-width:48em){
+    body{
+        background-color: ;
+    }
+    
+        /*HOME PAGE CODE*/
+    
+    .contain02{
+        
+        background: url(img/london-scenery-1212670-1598x1156.jpg);
+        background-size: 125% 100%;
+        
+       
+    }
+    
+    .home-content{
+         height: 34em;
+    }
+    
+    .content-text{
+        position:relative;
+        top: 150px;
+        background-color: #f2f2f2;
+        opacity: 0.9;
+        width: 60%;
+        padding-top: 5px;
+         padding-bottom: 15px;
+        margin: auto;
+    }
+    
+    .heading-1{
+        margin-top: 20px;
+         width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        border-left: 0px solid black;
+        border-right: 0px solid black;
+    }
+    
+    .content-text p{
+        width: 50%;
+        margin: auto;
+    }
+    
+    .footer{
+        width: 100%;
+        margin-left: 0px;
+        position: absolute;
+        left: 0;
+    }
+    
+    /*ABOUT US PAGE CODE*/
+    
+    .contain-header{
+        
+        background-size:140% 140%;
+        height: 25em;
+    }
+    
+    .ca{
+        width: 65%;
+    }
+    
+    /*CLIENT CARE PAGE*/
+    
+    
+    
+    .media{
+        padding-top: 40px;
+        margin-left: -60px;
+        width: 100%;
+        
+    }  
+    
+    .media-03-1{
+        padding-bottom: 80px;
+    }
+    
+    .media-heading {
+      font-size: 1em;
+    }
+    
+    
+    /*CLIENT CARE PAGE*/
+    
+     /*WHO WE ARE*/
+    
+    
+    .content-waw{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .cwaw02 h4{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .waw-list{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: left;
+        list-style: disc;
+        list-style-position: outside;
+    }
+    
+    /*WHO WE ARE*/
+    
+    /* TRAD-LENDING*/
+    
+    .content-len{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .cl04{
+        width: 60%;
+        margin-top: 30px;
+        
+    }
+    
+    .rowtrlen-01,
+    .rowtrlen-02{
+        background-color: #f2f2f2;
+    }
+    
+    .nav-list{
+        list-style: none;
+        margin-top: 20px;
+    }
+    
+    .nav-list li{
+        padding: 10px;
+        margin-left: -100px;
+        border: 1px solid #222;
+        background-color: black;
+    }
+    
+    .nav-list li:hover{
+        color: #fff;
+    }
+    
+    .nav-list li a:hover{
+        background-color: black;
+        color: #fff
+    }
+    
+    .nav-list a{
+         color: #fff;
+        text-transform: capitalize;
+    } 
+    
+    .nav-list a:hover{
+         color: #fff;
+    }
+    
+
+    
+    
+    /* TRAD-LENDING*/
+    
+
+    
+    
+    
+}
+
+@media(min-width:62em){
+     body{
+        background-color: #f2f2f2;
+    }
+    
+            /*HOME PAGE CODE*/
+    
+    .contain02{
+        background: url(img/london-scenery-1212670-1598x1156.jpg);
+        background-size: 125% 105%;
+    }
+    
+    .home-content{
+         height: 43em;
+    }
+    
+    .content-text{
+        position:relative;
+        top: 210px;
+        background-color: #f2f2f2;
+        opacity: 0.9;
+        width: 50%;
+        padding-top: 5px;
+         padding-bottom: 15px;
+        margin: auto;
+    }
+    
+     .cc02{
+        padding-top: 35px;
+        padding-bottom: 40px
+    }
+    
+    .cc03{
+        padding-top: 45px;
+        padding-bottom: 40px
+    }
+    
+    .cc04{
+        margin-top: 35px;
+         padding-top: 15px;
+        padding-bottom: 20px;
+        width: 55%;    
+    }
+    
+    .cc04 h4{
+        margin-bottom: 30px;
+    }
+    
+    /*ABOUT US PAGE CODE*/
+    
+    .contain-header{
+       
+        background-size:100% 100%;
+        height: 31em;
+    }
+    
+    .rowab-02{
+        height: 28em;
+    }
+    
+    .rowab-04{
+        height: 28em;
+    }
+    
+     .ab-content{
+        margin-top: -60px;
+        color: black;
+        background-color: #f2f2f2;
+        opacity: 0.8;
+    }
+    
+    .ca-01{
+        margin-top: 70px;
+    }
+    
+    .ca-02{
+        margin-top: 30px;
+        width: 90%;
+        height: 15em;
+        margin-bottom: 35px;
+    }
+    
+    .ca-03{
+        margin-top: 30px;
+         width: 90%;
+        height: 15em;
+        margin-bottom: 35px;
+    }
+    
+    .ca-04{
+       margin-top: 30px;
+        width: 90%;
+        height: 15em;
+        margin-bottom: 35px;
+    }
+    
+    .ca-05{
+        margin-top: 40px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /*CLIENT CARE PAGE*/
+    
+    .rowcc-01{
+        background-color: #f2f2f2;
+    }
+    
+    .media{
+        padding-top: 80px;
+        
+    }  
+    
+    .media-03{
+        padding-bottom: 80px;
+    }
+    
+    .media-object{
+        width: 130px;
+        height: 130px;
+    }
+    
+    
+}
+
+
+@media(min-width:75em){
+   body{
+        background-color: orang;
+    }
+    
+    .navbar-nav{
+        margin-left: 10%;
+    }
+    
+    
+            /*HOME PAGE CODE*/
+    
+    .contain02{
+        background: url(img/london-scenery-2612x1890.jpg);
+        background-position: 0px -100px;
+        background-size: 125% 155%;
+    }
+    
+    .home-content{
+         height: 55em;
+    }
+    
+    .content-text{
+        position:relative;
+        top: 210px;
+        
+        
+        width: 40%;
+        padding-top: 5px;
+         padding-bottom: 15px;
+        margin: auto;
+    }
+    
+     .cc02{
+        padding-top: 65px;
+        padding-bottom: 140px;
+         width: 55%;
+    }
+    
+    .cc03{
+        padding-top: 45px;
+        padding-bottom: 40px;
+        width: 55%;
+    }
+    
+    .cc04{
+        margin-top: 35px;
+         padding-top: 15px;
+        padding-bottom: 20px;
+        width: 65%;    
+    }
+    
+    .cc04 h4{
+        margin-bottom: 30px;
+    }
+    
+    /*ABOUT US PAGE CODE*/
+    
+    .contain-header{
+       
+        background-size:100% 100%;
+        height: 35em;
+    }
+    
+    .ca{
+        width: 55%;
+    }
+    
+    .ab-content{
+        margin-top: -60px;
+        color: black;
+         background-color: #f2f2f2;
+        opacity:0.8;
+    }
+    
+      .ca-02{
+        width: 90%;
+    }
+    
+    .ca-03{
+         width: 90%;
+    }
+    
+    .ca-04{
+        width: 90%;
+    }
+    
+     /*WHO WE ARE*/
+    
+    
+    .content-waw{
+        width: 55%;
+        margin: auto;
+    }
+    
+    
+    
+    
+    
+}
+
+@media(min-width:95em){
+    
+     .navbar-nav{
+        margin-left: 18%;
+    }
+   
+              /*HOME PAGE CODE*/
+    
+    .contain02{
+        background: url(img/london-scenery-2612x1890.jpg);
+        background-position: 0px -100px;
+        background-size: 125% 155%;
+    }
+    
+    .rowc3-01{
+        padding-top: 20px;
+    }
+    
+     .rowc4-02{
+        padding-top: 60px;
+         padding-bottom: 60px;
+         background: url(img/from-the-london-eye-pencil.jpg);
+        background-size: 100%;
+    }
+    
+    .home-content{
+         height: 60em;
+    }
+    
+    .content-text{
+        position:relative;
+        top: 210px;
+        background-color: transparent;
+        opacity: 1;
+        width: 30%;
+        padding-top: 5px;
+         padding-bottom: 15px;
+        margin: auto;
+    }
+    
+     .cc02{
+        padding-top: 35px;
+        padding-bottom: 40px;
+         width: 40%;
+    }
+    
+    .cc03{
+        padding-top: 45px;
+        padding-bottom: 40px;
+        width: 40%;
+         
+    }
+    
+    .cc04{
+        margin-top: 35px;
+         padding-top: 15px;
+        padding-bottom: 20px;
+        width: 35%;    
+    }
+    
+    .cc04 h4{
+        margin-bottom: 30px;
+    }
+    
+    /*ABOUT US PAGE CODE*/
+    
+    .contain-header{
+       
+        background-size:100% 100%;
+        height: 37.5em;
+    }
+    
+    .ca{
+        width: 35%;
+    }
+    
+    .ab-content{
+        margin-top: -60px;
+        color: black;
+         background-color: #f2f2f2;
+        opacity: 0.8;
+    }
+    
+      .ca-02{
+        width: 70%;
+    }
+    
+    .ca-03{
+         width: 70%;
+    }
+    
+    .ca-04{
+        width: 70%;
+    }
+    
+    /*RETIREMENT PAGE*/
+    
+    .cr-01{
+       
+    }
+    
+    .cr-01-1 img{
+        width: 75%;
+    }
+    
+    .cr-02{
+        margin-top: 30px;
+        padding: 20px;
+        background-color: black;
+        color: #fff;
+         margin-bottom: 20px;
+    }
+    
+    .tn-1{
+        background-color: black;
+    }
+    
+    .cr-02-01 img{
+        width: 75%;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+         height: 15.5em;
+    }
+    
+    .cr-03{
+        margin-top: 40px;
+    }
+    
+    
+    
+}
+
